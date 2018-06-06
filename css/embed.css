@@ -1,0 +1,21 @@
+#chatbot-iframe {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: 600px;
+    max-height: 100%;
+}
+
+
+@media screen and (max-width: 425px) {
+    #chatbot-iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+body {
+          background-image: url("Capture.PNG");
+           width:100%;
+         }
